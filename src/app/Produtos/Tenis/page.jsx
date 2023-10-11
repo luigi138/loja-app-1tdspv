@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Tenis(){
     return(
         <div>
@@ -9,7 +11,7 @@ export default function Tenis(){
 
 
                 </p>
-                <p>Voltar...</p>
+                <p><Link href="/">Voltar...</Link></p>
             </div>
         </div>
     )
