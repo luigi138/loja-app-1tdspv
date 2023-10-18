@@ -1,5 +1,5 @@
   import Link from 'next/link'
-import Image from 'next/link'
+
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
     </ul>
 
     <figure>
-      <Image src="/candies-171342_1280.jpg" alt="Prateleira" width={320}
+      <Image src="/sup-shelf_640.png" alt="Prateleira" width={320}
       height={320}/>
     </figure>
   </div>
